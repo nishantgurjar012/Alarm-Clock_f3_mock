@@ -61,7 +61,7 @@ function start_timer(list_item_div, total_time_till_zero) {
     list_item_div.setAttribute("data-clear", `${timeOver}`);
     if (total_time_till_zero == 0) {
       myaudio.src =
-        "./assets/Bas Tu Bhag Milkha - Bhaag Milkha Bhaag ! Hindi.mp3";
+        "./Bas Tu Bhag Milkha - Bhaag Milkha Bhaag ! Hindi.mp3";
       list_item_div.classList.toggle("time_up");
       list_item_div.innerHTML = `
                                         <span>Time Is Up!</span>

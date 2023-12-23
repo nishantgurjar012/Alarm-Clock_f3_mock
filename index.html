@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="icon" href="./assets/alarm1.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="root">
+        <section class="alarm_container">
+            <div id="heading">
+                <h3>Multiple Timers App</h3>
+            </div>
+            <div class="time_container">
+                <p>Set Time:</p>
+                <form id="time_input_form">
+                    <input type="number" name="hours" id="" value="" min="0" max="12" placeholder="hh">:
+                    <input type="number" name="minutes" id="" value="" min="0" max="60" placeholder="mm">:
+                    <input type="number" name="seconds" id="" value="" min="0" max="60" placeholder="ss">
+                    <button>Set</button>
+                </form>
+            </div>
+            <div id="current_timer"><p>Current Timers</p></div>
+            <div id="timers_list"><p>You have no timers currently!</p></div>
+        </section>
+    </main>
+    
+
+
+
+    <script src="./alarm.js"></script>
+</body>
+</html>
